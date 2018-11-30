@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spot Kleaners | Coming Soon</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body class="hero is-primary is-bold" style="align-content: center; height: -webkit-fill-available;">
+  <section class="section">
+    <div class="container has-text-centered">
+      <h1 class="is-size-3-desktop is-size-3-touch">Your One Stop <br><span id="app"></span> <br>Cleaning Services Company</h1>
+    </div>
+    <div class="columns">
+      <div class="column is-half is-offset-one-quarter">
+        <div class="box" style="background-color: unset; margin-top: 2rem;">
+          <h1 class="title has-text-centered">
+            COMING SOON !
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="container has-text-centered">
+      <p class="subtitle">
+        * Website under <strong>Development</strong>!
+      </p>
+    </div>
+  </section>
+</body>
+<script src="static/js/typewriter.js"></script>
+<script type="text/javascript">
+  var app = document.getElementById('app');
+
+  var typewriter = new Typewriter(app, {
+    loop: true
+  });
+
+  typewriter.typeString('RESIDENTIAL')
+  .pauseFor(2500)
+  .deleteAll()
+  .typeString('OFFICE')
+  .pauseFor(2500)
+  .deleteAll()
+    // .deleteChars(7)
+    .typeString('LAUNDRY')
+    .pauseFor(2500)
+    .start();
+  </script>
+  </html>
